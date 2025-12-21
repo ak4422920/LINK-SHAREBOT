@@ -8,7 +8,7 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 BOT_USERNAME = 'Sharesafelinkbot'
 APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8371607189"))
 PORT = os.environ.get("PORT", "8080")
 DB_URL = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "link")
@@ -21,7 +21,7 @@ HELP_TXT =  os.environ.get("HELP_MESSAGE", "⁉️ Hᴇʟʟᴏ {mention} ~\n\n <
 FSUB_PIC = os.environ.get("FSUB_PIC", "https://ibb.co/DHqBS4V7")
 FSUB_LINK_EXPIRY = 300
 LOG_FILE_NAME = "Rexbots.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", ""))
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002700642986"))
 
 logging.basicConfig(
     level=logging.INFO,
